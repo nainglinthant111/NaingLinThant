@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Github, FacebookIcon } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
+import Medium from "../public/icons/medium.png";
 
 export default function Header() {
     const pathname = usePathname();
@@ -63,6 +64,16 @@ export default function Header() {
                             rel="noopener noreferrer"
                         >
                             <FacebookIcon className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" />
+                        </Link>
+                        <Link
+                            href="https://medium.com/@nainglinthant1998"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src={Medium.src}
+                                className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                            />
                         </Link>
 
                         <ModeToggle />
