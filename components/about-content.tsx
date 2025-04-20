@@ -34,7 +34,7 @@ export default function AboutContent() {
         {
             degree: "Bachelor of Computer Science (4th Year)",
             institution: "University Of Computer Studies in Banmaw",
-            duration: "Current",
+            duration: "Stopped in 2020",
             description:
                 "Studying computer science with a focus on software development and programming technologies.",
         },
