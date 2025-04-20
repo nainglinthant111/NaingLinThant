@@ -4,7 +4,7 @@ import bootstrap from "../public/icons/bootstrap.svg";
 import tailwind from "../public/icons/tailwind-css-2.svg";
 import javascript from "../public/icons/javascript.svg";
 import typescript from "../public/icons/typescript.svg";
-import angular from "../public/icons/typescript.svg";
+import angular from "../public/icons/angular.svg";
 import react from "../public/icons/react.svg";
 import nodejs from "../public/icons/nodejs.svg";
 import java from "../public/icons/java.svg";
