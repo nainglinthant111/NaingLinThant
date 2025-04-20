@@ -22,8 +22,8 @@ export default function Projects() {
                 "Next.js",
                 "Tailwindcss",
             ],
-            liveLink: "https://example.com",
-            githubLink: "https://github.com",
+            liveLink: "https://nainglinthant.vercel.app/",
+            githubLink: "https://github.com/nainglinthant111/NaingLinThant",
         },
         {
             id: 2,
