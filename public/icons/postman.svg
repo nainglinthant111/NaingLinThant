@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#FF6C37" />
+
+  <!-- Envelope Base -->
+  <polygon points="100,50 170,150 30,150" fill="#ffffff" stroke="#000000" stroke-width="2" />
+
+  <!-- Envelope Flap -->
+  <rect x="30" y="100" width="140" height="50" fill="#ffffff" stroke="#000000" stroke-width="2" rx="5" ry="5" />
+
+  <!-- Letter "P" -->
+  <text x="100" y="120" font-family="Arial, sans-serif" font-size="40" text-anchor="middle" fill="#FF6C37">P</text>
+
+  <!-- Text "Postman" -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#ffffff">Postman</text>
+</svg>

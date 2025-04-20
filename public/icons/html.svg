@@ -1,0 +1,5 @@
+<!-- html.svg -->
+<svg width="120" height="50" viewBox="0 0 120 50" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="50" fill="#f16529"/>
+  <text x="10" y="35" font-size="30" font-family="Arial, sans-serif" fill="#fff">HTML</text>
+</svg>
