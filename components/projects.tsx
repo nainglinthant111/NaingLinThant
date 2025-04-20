@@ -59,7 +59,7 @@ export default function Projects() {
         {
             id: 5,
             title: "Employee Management System",
-            description: "Angular CRUD testion project",
+            description: "Angular CRUD testing project",
             image: payroll,
             tech: ["Angular", "Bootstrap", "JavaScript", "TypeScript"],
             liveLink: "https://hr-payroll-omega.vercel.app/",
