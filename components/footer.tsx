@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Github, FacebookIcon } from "lucide-react";
-import Medium from "../public/icons/medium.png";
+import Medium from "../public/projects/medium.png";
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();

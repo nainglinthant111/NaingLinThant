@@ -1,21 +1,22 @@
-import html from "../public/icons/html.svg";
-import css from "../public/icons/css.svg";
+import html from "../public/icons/HTML.svg";
+import css from "../public/icons/CSS.svg";
 import bootstrap from "../public/icons/bootstrap.svg";
-import tailwind from "../public/icons/tailwind-css-2.svg";
-import javascript from "../public/icons/javascript.svg";
-import typescript from "../public/icons/typescript.svg";
-import angular from "../public/icons/angular.svg";
-import react from "../public/icons/react.svg";
-import nodejs from "../public/icons/nodejs.svg";
-import java from "../public/icons/java.svg";
-import springBoot from "../public/icons/spring-3.svg";
-import mongoDb from "../public/icons/mongoDb.svg";
-import mysql from "../public/icons/mysql.svg";
-import postgresql from "../public/icons/postgresql.svg";
+import tailwind from "../public/icons/TailwindCSS-Light.svg";
+import javascript from "../public/icons/JavaScript.svg";
+import typescript from "../public/icons/TypeScript.svg";
+import angular from "../public/icons/Angular-Light.svg";
+import react from "../public/icons/React-Light.svg";
+import nodejs from "../public/icons/NodeJS-Light.svg";
+import java from "../public/icons/Java-Light.svg";
+import springBoot from "../public/icons/Spring-Light.svg";
+import mongoDb from "../public/icons/MongoDB.svg";
+import mysql from "../public/icons/MySQL-Light.svg";
+import postgresql from "../public/icons/PostgreSQL-Light.svg";
 import cobol from "../public/icons/cobol.svg";
-import prisma from "../public/icons/prisma.svg";
-import docker from "../public/icons/docker.svg";
-import postman from "../public/icons/postman.svg";
+import prisma from "../public/icons/Prisma.svg";
+import docker from "../public/icons/Docker.svg";
+import postman from "../public/icons/Postman.svg";
+import Figma from "../public/icons/Figma-Light.svg";
 
 export default function TechStack() {
     const technologies = [
@@ -37,6 +38,7 @@ export default function TechStack() {
         { name: "Prisma ORM", icon: prisma },
         { name: "Postman", icon: postman },
         { name: "Docker", icon: docker },
+        { name: "Figma", icon: Figma },
     ];
 
     return (

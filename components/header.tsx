@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Github, FacebookIcon, MenuIcon } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import Medium from "../public/icons/medium.png";
+import Medium from "../public/projects/medium.png";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 
