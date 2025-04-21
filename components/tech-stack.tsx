@@ -6,6 +6,8 @@ import javascript from "../public/icons/JavaScript.svg";
 import typescript from "../public/icons/TypeScript.svg";
 import angular from "../public/icons/Angular-Light.svg";
 import react from "../public/icons/React-Light.svg";
+import Next from "../public/icons/NextJS-Light.svg";
+import Nest from "../public/icons/NestJS-Light.svg";
 import nodejs from "../public/icons/NodeJS-Light.svg";
 import java from "../public/icons/Java-Light.svg";
 import springBoot from "../public/icons/Spring-Light.svg";
@@ -14,6 +16,7 @@ import mysql from "../public/icons/MySQL-Light.svg";
 import postgresql from "../public/icons/PostgreSQL-Light.svg";
 import cobol from "../public/icons/cobol.svg";
 import prisma from "../public/icons/Prisma.svg";
+import Redis from "../public/icons/Redis-Light.svg";
 import docker from "../public/icons/docker.svg";
 import postman from "../public/icons/Postman.svg";
 import Figma from "../public/icons/Figma-Light.svg";
@@ -28,6 +31,8 @@ export default function TechStack() {
         { name: "TypeScript", icon: typescript },
         { name: "Angular", icon: angular },
         { name: "React", icon: react },
+        { name: "Next.js", icon: Next },
+        { name: "Nest.js", icon: Nest },
         { name: "Node.js", icon: nodejs },
         { name: "Java", icon: java },
         { name: "Spring Boot", icon: springBoot },
@@ -36,6 +41,7 @@ export default function TechStack() {
         { name: "PostgreSQL", icon: postgresql },
         { name: "COBOL", icon: cobol },
         { name: "Prisma ORM", icon: prisma },
+        { name: "Redis", icon: Redis },
         { name: "Postman", icon: postman },
         { name: "Docker", icon: docker },
         { name: "Figma", icon: Figma },
