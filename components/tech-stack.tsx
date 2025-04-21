@@ -1,5 +1,5 @@
-import html from "../public/icons/HTML.svg";
-import css from "../public/icons/CSS.svg";
+import html from "../public/icons/html.svg";
+import css from "../public/icons/css.svg";
 import bootstrap from "../public/icons/bootstrap.svg";
 import tailwind from "../public/icons/TailwindCSS-Light.svg";
 import javascript from "../public/icons/JavaScript.svg";
@@ -14,7 +14,7 @@ import mysql from "../public/icons/MySQL-Light.svg";
 import postgresql from "../public/icons/PostgreSQL-Light.svg";
 import cobol from "../public/icons/cobol.svg";
 import prisma from "../public/icons/Prisma.svg";
-import docker from "../public/icons/Docker.svg";
+import docker from "../public/icons/docker.svg";
 import postman from "../public/icons/Postman.svg";
 import Figma from "../public/icons/Figma-Light.svg";
 
