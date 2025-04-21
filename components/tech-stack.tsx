@@ -15,7 +15,7 @@ import mongoDb from "../public/icons/mongoDB.svg";
 import mysql from "../public/icons/mySQL-Light.svg";
 import postgresql from "../public/icons/postgreSQL-Light.svg";
 import cobol from "../public/icons/cobol.svg";
-import prisma from "../public/icons/Prisma.svg";
+import prisma from "../public/icons/prisma.svg";
 import Redis from "../public/icons/redis-Light.svg";
 import docker from "../public/icons/docker.svg";
 import postman from "../public/icons/postman.svg";
