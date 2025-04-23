@@ -33,17 +33,10 @@ export default function Header() {
                 <div className="container mx-auto px-4 md:px-6 max-w-6xl flex justify-between items-center">
                     <Link
                         href="/"
-                        className="text-xl font-bold text-gray-900 dark:text-white"
+                        className="text-xl font-bold text-gray-900 dark:text-white animate-bounce"
                     >
-                        <span className="text-[#42446e] dark:text-[#d7ffe0]">
-                            {"{ "}
-                        </span>
-                        Naing Lin Thant
-                        <span className="text-[#42446e] dark:text-[#d7ffe0]">
-                            {" }"}
-                        </span>
+                        PORTFOLIO
                     </Link>
-
                     <div className="hidden md:flex items-center space-x-8">
                         <nav className="flex items-center space-x-6">
                             {navItems.map((item) => (

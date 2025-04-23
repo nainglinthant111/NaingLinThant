@@ -1,8 +1,8 @@
 import nainglinthant from "../public/nainglinthant.png";
 export default function Hero() {
     return (
-        <section className="py-16 md:py-24 flex flex-col md:flex-row items-center justify-between lg:px-12">
-            <div className="md:w-2/3">
+        <section className="py-16 md:py-16 flex flex-col md:flex-row items-center justify-between lg:px-12">
+            <div className="md:w-1/2 md:border-l-2 md:pl-2 md:border-gray-700">
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">
                     <span className="block mb-2">Hi 👋,</span>
                     <span className="block mb-2">My name is</span>
@@ -15,7 +15,7 @@ export default function Hero() {
                 </p>
             </div>
             <div className="mt-8 md:mt-0">
-                <div className="rounded-full border-4 border-gray-200 dark:border-gray-700 overflow-hidden w-48 h-48">
+                <div className="rounded-full border-4 border-gray-200 dark:border-gray-700 overflow-hidden w-48 h-48 md:w-[500px] md:h-[500px]">
                     <img
                         src={nainglinthant.src}
                         alt="Naing Lin Thant"
