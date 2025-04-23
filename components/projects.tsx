@@ -6,6 +6,7 @@ import foodOrder from "../public/projects/foodorder.png";
 import postalcode from "../public/projects/myanmarpostalcode.png";
 import eco from "../public/projects/eco.png";
 import payroll from "../public/projects/payroll.png";
+import voting from "../public/projects/voting.png";
 
 export default function Projects() {
     const projects = [
@@ -64,6 +65,21 @@ export default function Projects() {
             tech: ["Angular", "Bootstrap", "JavaScript", "TypeScript"],
             liveLink: "https://hr-payroll-omega.vercel.app/",
             githubLink: "https://github.com/nainglinthant111/HR-Payroll",
+        },
+        {
+            id: 6,
+            title: "King & Queen Voting System",
+            description: "Next.js Fontend project",
+            image: voting,
+            tech: [
+                "Next.js",
+                "TailwindCss",
+                "Shadcn",
+                "JavaScript",
+                "TypeScript",
+            ],
+            liveLink: "https://voting-beta-seven.vercel.app/",
+            githubLink: "https://github.com/nainglinthant111/kingqueenvoting",
         },
     ];
 

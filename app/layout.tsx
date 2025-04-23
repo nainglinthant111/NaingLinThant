@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     title: "Naing Lin Thant | Portfolio",
     description: "Full Stack Developer portfolio for Naing Lin Thant",
     generator: "Next.js",
+    icons: {
+        icon: "/nainglinthantlogo.jpeg",
+    },
 };
 
 export default function RootLayout({
@@ -22,13 +25,6 @@ export default function RootLayout({
             lang="en"
             suppressHydrationWarning
         >
-            <head>
-                <link
-                    rel="icon"
-                    type="image/png"
-                    href="/nainglinthantlogo.jpeg"
-                />
-            </head>
             <body className={inter.className}>
                 <ThemeProvider
                     attribute="class"
