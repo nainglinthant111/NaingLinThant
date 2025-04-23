@@ -69,7 +69,8 @@ export default function Projects() {
         {
             id: 6,
             title: "King & Queen Voting System",
-            description: "Next.js Fontend project",
+            description:
+                "Next.js Fontend project for testing login => user : user@example.com, admin : admin@example.com ,pass : 12345678 ",
             image: voting,
             tech: [
                 "Next.js",
