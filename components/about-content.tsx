@@ -44,14 +44,14 @@ export default function AboutContent() {
         <section className="py-16">
             <h2 className="text-2xl font-bold mb-8">About Me</h2>
 
-            <div className="mb-12">
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
+            <div className="mb-12 md:border-l-2 md:pl-2">
+                <p className="text-gray-600 dark:text-gray-300 mb-4 text-justify">
                     I'm a passionate full stack developer with experience in
                     building modern web applications and services. I specialize
                     in both frontend and backend development, working with a
                     variety of technologies and frameworks.
                 </p>
-                <p className="text-gray-600 dark:text-gray-300">
+                <p className="text-gray-600 dark:text-gray-300 text-justify">
                     My diverse background includes experience in networking,
                     robotics, and maritime work, which has helped me develop
                     strong problem-solving skills and adaptability to different
@@ -71,12 +71,14 @@ export default function AboutContent() {
                                 <h4 className="font-medium text-[#42446e] dark:text-[#d7ffe0]">
                                     {job.title}
                                 </h4>
-                                <p className="text-gray-600 dark:text-gray-300">
-                                    {job.company}
-                                </p>
-                                <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                                    {job.description}
-                                </p>
+                                <div className="md:border-l-2 md:pl-2">
+                                    <p className="text-gray-600 dark:text-gray-300">
+                                        {job.company}
+                                    </p>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1 text-justify">
+                                        {job.description}
+                                    </p>
+                                </div>
                             </div>
                             <div className="text-right">
                                 <span className="text-sm text-gray-500 dark:text-gray-400">
@@ -100,12 +102,14 @@ export default function AboutContent() {
                                 <h4 className="font-medium text-[#42446e] dark:text-[#d7ffe0]">
                                     {edu.degree}
                                 </h4>
-                                <p className="text-gray-600 dark:text-gray-300">
-                                    {edu.institution}
-                                </p>
-                                <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
-                                    {edu.description}
-                                </p>
+                                <div className="md:border-l-2 md:pl-2">
+                                    <p className="text-gray-600 dark:text-gray-300">
+                                        {edu.institution}
+                                    </p>
+                                    <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                                        {edu.description}
+                                    </p>
+                                </div>
                             </div>
                             <div className="text-right">
                                 <span className="text-sm text-gray-500 dark:text-gray-400">
