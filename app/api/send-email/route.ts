@@ -1,11 +1,10 @@
-const nodemailer = require("nodemailer");
-const { MailtrapTransport } = require("mailtrap");
-export const sendEmail = async (formData: {
-    name: string;
-    email: string;
-    message: string;
-}) => {
+import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
+import { MailtrapTransport } from "mailtrap";
+
+export async function POST(request: Request) {
     try {
+        const formData = await request.json();
         const TOKEN = "7c58c3d801880d89a2e5ba728f98689d";
 
         const transporter = nodemailer.createTransport(
@@ -24,9 +23,9 @@ export const sendEmail = async (formData: {
                 name: "Mailtrap Test",
             },
             to: ["nainglinthant1998@gmail.com"],
-            subject: "Contect By Portfolio",
+            subject: "You are awesome!",
             text:
-                " name : " +
+                "name : " +
                 formData.name +
                 "\n email : " +
                 formData.email +
@@ -37,14 +36,16 @@ export const sendEmail = async (formData: {
 
         const info = await transporter.sendMail(mailOptions);
 
-        return {
+        return NextResponse.json({
             success: true,
-            messageId: info.messageId,
-            response: info.response,
-        };
+        });
     } catch (error) {
-        return {
-            success: false,
-        };
+        return NextResponse.json(
+            {
+                success: false,
+                error: "Failed to send email",
+            },
+            { status: 500 }
+        );
     }
-};
+}
