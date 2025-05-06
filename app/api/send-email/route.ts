@@ -15,7 +15,6 @@ export async function POST(request: Request) {
 
         // Verify transporter connection
         await transporter.verify();
-        console.log("SMTP connection verified successfully");
 
         const mailOptions = {
             from: {
@@ -23,10 +22,8 @@ export async function POST(request: Request) {
                 name: "Mailtrap Test",
             },
             to: ["nainglinthant1998@gmail.com"],
-            subject: "You are awesome!",
+            subject: "Connect from " + formData.name,
             text:
-                "name : " +
-                formData.name +
                 "\n email : " +
                 formData.email +
                 "\n message : " +
