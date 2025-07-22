@@ -1,11 +1,12 @@
 import React from "react";
-import { projects } from "@/components/projects";
+import { projects } from "@/service/data";
 import Image from "next/image";
 import Link from "next/link";
 import { ExternalLink, Github } from "lucide-react";
-
 function ProjectDetail(props: any) {
-    const project = projects.find((p) => p.id === Number(props.id));
+    const project = projects.find(
+        (p: { id: number }) => p.id === Number(props.id)
+    );
     return (
         <section className="py-12">
             <h2 className="text-2xl font-bold text-center mb-2">
