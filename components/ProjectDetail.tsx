@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import { projects } from "@/service/data";
 import Image from "next/image";
 import Link from "next/link";
