@@ -1,45 +1,5 @@
+import { workExperience, education } from "@/service/settingData";
 export default function AboutContent() {
-    const workExperience = [
-        {
-            title: "Full Stack Developer",
-            company: "GIC Myanmar",
-            duration: "2023 - Present",
-            description:
-                "Working as a full stack developer utilizing various technologies including java Spring Boot, JavaScript, TypeScript, React, Node.js, and databases.",
-        },
-        {
-            title: "Sailer",
-            company: "Faminy Win Ship Company",
-            duration: "2020 - 2023",
-            description:
-                "Worked as a sailer, gaining valuable experience in teamwork, problem-solving, and adaptability in challenging environments.",
-        },
-        {
-            title: "Robotic Volunteer",
-            company: "University Of Computer Studies in Banmaw (UCSB)",
-            duration: "2019 - 2020",
-            description:
-                "Volunteered in robotics projects, helping to design, build, and program robots for various applications and competitions.",
-        },
-        {
-            title: "CCTV and Networking Service",
-            company: "University Of Computer Studies in Banmaw (UCSB)",
-            duration: "2017 - 2019",
-            description:
-                "Provided CCTV installation and networking services, ensuring proper setup and maintenance of security systems and network infrastructure.",
-        },
-    ];
-
-    const education = [
-        {
-            degree: "Bachelor of Computer Science (4th Year)",
-            institution: "University Of Computer Studies in Banmaw",
-            duration: "Stopped in 2020",
-            description:
-                "Studying computer science with a focus on software development and programming technologies.",
-        },
-    ];
-
     return (
         <section className="py-16">
             <h2 className="text-2xl font-bold mb-8">About Me</h2>
