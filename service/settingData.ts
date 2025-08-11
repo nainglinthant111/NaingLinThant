@@ -2,7 +2,7 @@ import portfolio from "../public/projects/image.png";
 import foodOrder from "../public/projects/foodorder.png";
 import postalcode from "../public/projects/myanmarpostalcode.png";
 import eco from "../public/projects/eco.png";
-import jwt from "../public/projects/jwt-logo.png";
+import jwt from "../public/projects/jwt-cover.png";
 import voting from "../public/projects/voting.png";
 
 export const projects = [
@@ -53,7 +53,7 @@ export const projects = [
             "ဒီစနစ်သည် API Key နှင့် Secret Key များကို ဖန်တီးပေးနိုင်ပါသည်။ JSON ဒေတာနှင့် Key တစ်ခုကိုထည့်သွင်းပြီး Token (JWT) အဖြစ်ပြောင်းလဲနိုင်ပြီး၊ Token နှင့် Key ကိုထည့်သွင်းကာ မူရင်း JSON ဒေတာကို ပြန်လည်ရယူနိုင်ပါသည်။ ဒီ tool သည် Developer များအတွက် Authentication စနစ်များကို စမ်းသပ်ရန်နှင့် နားလည်ရန် အထူးသင့်တော်ပါသည်။",
         image: jwt,
         tech: ["Nodejs"],
-        liveLink: "https://token-generate.nainglinthant.site/",
+        liveLink: "https://tokengenerator.nainglinthant.site/",
         githubLink: "",
     },
     {
