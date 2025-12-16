@@ -25,12 +25,12 @@ export default function Footer() {
                     </div>
 
                     <div className="flex items-center space-x-6 mb-4 md:mb-0">
-                        <Link
+                        {/* <Link
                             href="tel:09789224227"
                             className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                         >
                             +959 789 224 227
-                        </Link>
+                        </Link> */}
                         <Link
                             href="mailto:nainglinthant1998@gmail.com"
                             className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"

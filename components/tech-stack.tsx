@@ -20,6 +20,14 @@ import Redis from "../public/images/redis-Light.svg";
 import docker from "../public/images/docker.svg";
 import postman from "../public/images/postman.svg";
 import Figma from "../public/images/figma-Light.svg";
+import kubernetes from "../public/images/kubernetes.svg";
+import aws from "../public/images/aws.svg";
+import gcp from "../public/images/gcp.svg";
+import terraform from "../public/images/terraform.svg";
+import linux from "../public/images/linux.svg";
+import github from "../public/images/github.svg";
+import gitlab from "../public/images/gitlab.svg";
+import { Gitlab } from "lucide-react";
 
 export default function TechStack() {
     const technologies = [
@@ -42,9 +50,19 @@ export default function TechStack() {
         { name: "COBOL", icon: cobol },
         { name: "Prisma ORM", icon: prisma },
         { name: "Redis", icon: Redis },
-        { name: "Postman", icon: postman },
-        { name: "Docker", icon: docker },
         { name: "Figma", icon: Figma },
+    ];
+    const devops = [
+        
+        { name: "Docker", icon: docker },
+        { name: "Linux", icon: linux },
+        { name: "AWS", icon: aws },
+        { name: "Terraform", icon: terraform },
+        { name: "Kubernetes", icon: kubernetes },
+        { name: "GCP", icon: gcp },
+        { name: "Postman", icon: postman },
+        { name: "GitHub Action", icon: github },
+        { name: "GitLab Ci", icon: gitlab },
     ];
 
     return (
@@ -58,6 +76,32 @@ export default function TechStack() {
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-items-center">
                 {technologies.map((tech) => (
+                    <div
+                        key={tech.name}
+                        className="flex flex-col items-center justify-center"
+                    >
+                        <div className="w-12 h-12 relative mb-2">
+                            <img
+                                src={tech.icon.src}
+                                alt={tech.name}
+                                className="object-contain w-full h-full"
+                            />
+                        </div>
+                        <span className="text-sm text-gray-600 dark:text-gray-300">
+                            {tech.name}
+                        </span>
+                    </div>
+                ))}
+            </div>
+            <h2 className="text-2xl font-bold text-center mb-2 mt-16">
+                DevOps & Cloud
+            </h2>
+            <p className="text-center text-gray-600 dark:text-gray-300 mb-12">
+                Tools and platforms I work with
+            </p>
+            
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-8 justify-items-center">
+                {devops.map((tech) => (
                     <div
                         key={tech.name}
                         className="flex flex-col items-center justify-center"

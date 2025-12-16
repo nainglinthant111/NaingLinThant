@@ -44,9 +44,9 @@ export default function ContactForm() {
                     <p className="text-gray-600 dark:text-gray-300 mb-2">
                         Email: nainglinthant1998@gmail.com
                     </p>
-                    <p className="text-gray-600 dark:text-gray-300">
+                    {/* <p className="text-gray-600 dark:text-gray-300">
                         Phone: +959 789 224 227
-                    </p>
+                    </p> */}
                 </div>
 
                 <form
