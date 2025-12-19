@@ -10,11 +10,10 @@ export default function Hero() {
                     </span>
                 </h1>
                 <p className="text-md text-justify md:pr-8 text-gray-600 dark:text-gray-300">
-                    I'm a Full Stack Developer passionate about building
-                    efficient and scalable web applications. With expertise in
-                    both front-end and back-end technologies, I strive to create
-                    seamless user experiences and robust server-side
-                    functionalities.
+                    I'm a Full Stack Developer and DevOps Engineer with a passion for building
+                    scalable cloud-native applications and infrastructure. With expertise in
+                    AWS, GCP, and Infrastructure as Code using Terraform, I design and implement
+                    robust, secure, and efficient systems that power modern web applications.
                 </p>
             </div>
             <div className="mt-8 md:mt-0">
