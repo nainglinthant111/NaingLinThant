@@ -70,18 +70,18 @@ export const projects = [
 
 export const workExperience = [
     {
-        title: "Full Stack Developer",
+        title: "Full Stack Developer & DevOps Engineer",
         company: "GIC Myanmar",
         duration: "2023 - Present",
         description:
-            "Working as a full stack developer utilizing various technologies including java Spring Boot, JavaScript, TypeScript, React, Node.js, and databases.",
+            "Working as a Full Stack Developer and DevOps Engineer, specializing in cloud infrastructure with AWS and GCP. Developing and maintaining scalable applications using Java Spring Boot, JavaScript, TypeScript, React, and Node.js. Implementing Infrastructure as Code (IaC) using Terraform for automated cloud resource provisioning and management.",
     },
     {
-        title: "Sailer",
+        title: "Sailor",
         company: "Faminy Win Ship Company",
         duration: "2020 ~ 2023",
         description:
-            "Worked as a sailer, gaining valuable experience in teamwork, problem-solving, and adaptability in challenging environments.",
+            "Worked as a sailor, gaining valuable experience in teamwork, problem-solving, and adaptability in challenging environments.",
     },
     {
         title: "Robotic Volunteer",
