@@ -32,10 +32,10 @@ export default function Footer() {
                             +959 789 224 227
                         </Link> */}
                         <Link
-                            href="mailto:nainglinthant1998@gmail.com"
+                            href="mailto:nainglinthant@ez2cat.com"
                             className="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                         >
-                            nainglinthant1998@gmail.com
+                            nainglinthant@ez2cat.com
                         </Link>
                     </div>
 
@@ -68,7 +68,7 @@ export default function Footer() {
                 </div>
 
                 <div className="mt-6 text-center md:text-left text-sm text-gray-500 dark:text-gray-400">
-                    © {currentYear} | Designed and coded with ❤️️ by Naing Lin
+                    © { 2023 } | Designed and coded with ❤️️ by Naing Lin
                     Thant
                 </div>
             </div>

@@ -27,6 +27,9 @@ import terraform from "../public/images/terraform.svg";
 import linux from "../public/images/linux.svg";
 import github from "../public/images/github.svg";
 import gitlab from "../public/images/gitlab.svg";
+import cloudflare from "../public/images/cloudflare.svg";
+import zcom from "../public/images/zcom.svg";
+import jmeter from "../public/jmeta.png";
 import { Gitlab } from "lucide-react";
 
 export default function TechStack() {
@@ -63,6 +66,9 @@ export default function TechStack() {
         { name: "Postman", icon: postman },
         { name: "GitHub Action", icon: github },
         { name: "GitLab Ci", icon: gitlab },
+        { name: "Cloudflare", icon: cloudflare },
+        { name: "Z.com", icon: zcom },
+        { name: "JMeter", icon: jmeter },
     ];
 
     return (

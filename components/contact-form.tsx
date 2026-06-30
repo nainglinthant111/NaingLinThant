@@ -42,7 +42,7 @@ export default function ContactForm() {
 
                 <div className="text-center mb-8">
                     <p className="text-gray-600 dark:text-gray-300 mb-2">
-                        Email: nainglinthant1998@gmail.com
+                        Email: nainglinthant@ez2cat.com
                     </p>
                     {/* <p className="text-gray-600 dark:text-gray-300">
                         Phone: +959 789 224 227
