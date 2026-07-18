@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, FacebookIcon } from "lucide-react";
+import { Github, FacebookIcon, Linkedin } from "lucide-react";
 import Medium from "../public/projects/medium.png";
 
 export default function Footer() {
@@ -63,6 +63,13 @@ export default function Footer() {
                                 src={Medium.src}
                                 className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                             />
+                        </Link>
+                        <Link
+                            href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BiNOlxd1xRfWTbzZFu6zUaQ%3D%3D"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Linkedin className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" />
                         </Link>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Github, FacebookIcon, MenuIcon } from "lucide-react";
+import { Github, FacebookIcon, Linkedin, MenuIcon } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 import Medium from "../public/projects/medium.png";
 import { Button } from "@/components/ui/button";
@@ -78,6 +78,13 @@ export default function Header() {
                                     className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                                 />
                             </Link>
+                            <Link
+                                href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BiNOlxd1xRfWTbzZFu6zUaQ%3D%3D"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Linkedin className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" />
+                            </Link>
 
                             <ModeToggle />
                         </div>
@@ -151,6 +158,15 @@ export default function Header() {
                                         src={Medium.src}
                                         className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
                                     />
+                                </Link>
+                            </SheetClose>
+                            <SheetClose asChild>
+                                <Link
+                                    href="https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BiNOlxd1xRfWTbzZFu6zUaQ%3D%3D"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <Linkedin className="w-5 h-5 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white" />
                                 </Link>
                             </SheetClose>
                         </div>
