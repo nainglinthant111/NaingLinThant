@@ -75,7 +75,7 @@ export default function Footer() {
                 </div>
 
                 <div className="mt-6 text-center md:text-left text-sm text-gray-500 dark:text-gray-400">
-                    © { 2023 } | Designed and coded with ❤️️ by Naing Lin
+                    © {currentYear} | Designed and coded with ❤️️ by Naing Lin
                     Thant
                 </div>
             </div>
